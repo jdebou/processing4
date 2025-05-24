@@ -31,5 +31,6 @@
         <RemoveFolder Id="CleanUpShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
         <RegistryValue Root="HKCU" Key="Software\Processing Foundation\Processing" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
     </Component>
+    <Component Id=""
   </Package>
 </Wix>
