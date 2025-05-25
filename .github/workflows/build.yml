@@ -1,9 +1,5 @@
 name: Branch Builds (Legacy)
-on: 
-  push:
-    paths-ignore:
-      - '**/*.md'
-      - '.all-contributorsrc'
+on: workflow_dispatch
 
 jobs:
   test:
