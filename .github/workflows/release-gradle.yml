@@ -13,8 +13,8 @@ jobs:
         shell: bash
         run: |
           TAG_NAME="${GITHUB_REF#refs/tags/}"
-          REVISION=$(echo "$TAG_NAME" | cut -d'-' -f2)
-          VERSION=$(echo "$TAG_NAME" | cut -d'-' -f3)
+          REVISION=1
+          VERSION=1
 
           # Set outputs for use in later jobs or steps
           echo "revision=$REVISION" >> $GITHUB_OUTPUT
